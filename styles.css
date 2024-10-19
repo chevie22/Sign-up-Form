@@ -129,17 +129,34 @@
 
 .container.input{
   flex-direction: column;
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-size: 0.8rem;
+  font-weight: 400;
   border: none;
   margin: 0 5rem 0 0;
+  letter-spacing: 0.1rem;
+  width: 37%;
+}
+
+.container.content2{
+  margin: 0.9rem 0;
 }
 
 .input{
   border-radius: 5px;
-  border: 2px solid rgb(235, 235, 235);
-  padding: 0.3rem 0.3rem 0.3rem 0.5rem;
+  border: 2px solid #E5E7EB;
+  
   font-weight: 400;
+}
+
+.input[type = text], .input[type = email], .input[type = tel], .input[type = password]{
+  padding: 0.45rem 0.5rem;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  border:1px solid blue;
+  box-shadow: 3px 3px 5px rgb(214, 214, 214);
 }
 
 #createAccountButton{
